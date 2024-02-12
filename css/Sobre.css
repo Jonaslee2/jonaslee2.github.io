@@ -1,0 +1,125 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+     h3{ color: rgb(13, 2, 24);
+        border-radius: 100px;
+        margin-right: 500px;
+        background: var(--color-gradient);
+    --color-purple-50: rgba(255, 255, 255, 0.788);
+    --color-purple-100: rgb(120, 217, 255);
+    --color-purple-200: rgba(135, 115, 245, 0.918);
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+     }
+
+     h5{ font-family: Cinzel Decorative;
+        
+     }
+
+    #img3 { width: 200px;
+            height: 200px;
+            position: absolute;
+    top: 80%; /* Centraliza verticalmente */
+    left: 90%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza perfeitamente */
+    box-shadow: 0 0 20px rgb(179, 179, 255); /* Efeito de iluminação */    ;
+    border-radius: 170px;
+     }
+header {
+    background: linear-gradient(to bottom, #4e2474, #6a4c93, #eaceff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #360707;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cor ao passar o mouse */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black; /* Adiciona cor de fundo branca ao conteúdo */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+}
+
+section {
+    margin-bottom: 40px;
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4e2474;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6a4c93;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-block {
+    width: calc(33.33% - 20px); /* Define a largura dos blocos para 1/3 da largura do contêiner, com margem */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.project-block img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior ao separar a imagem do texto */
+}
+
+.project-block a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.project-block a:hover {
+    background-color: rgb(197, 158, 235);
+     /* Cor de fundo ao passar o mouse */
+}
